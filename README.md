@@ -1,4 +1,6 @@
-# terraform-aws-lb-listener-certificate
+# listener-certificate
+
+[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-aws-lb-listener-certificate/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-aws-lb-listener-certificate)
 
 Provides a Load Balancer Listener Certificate resource.
 This resource adds an ACM certificate to the load balancer for the specified
@@ -13,7 +15,7 @@ module "foo" {
 
   fqdn     = "foo.example.com"
   lb_name  = "public"
-  lb_ports = [ "443" ]
+  lb_ports = [ 443 ]
 }
 ```
 

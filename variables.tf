@@ -8,5 +8,5 @@ variable "lb_name" {
 
 variable "lb_ports" {
   description = "List of load balancer ports"
-  type        = "list"
+  type        = list(number)
 }
