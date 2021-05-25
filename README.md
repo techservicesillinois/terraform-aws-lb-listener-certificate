@@ -1,6 +1,6 @@
 # listener-certificate
 
-[![Build Status](https://drone.techservices.illinois.edu/api/badges/techservicesillinois/terraform-aws-lb-listener-certificate/status.svg)](https://drone.techservices.illinois.edu/techservicesillinois/terraform-aws-lb-listener-certificate)
+[![Terraform actions status](https://github.com/techservicesillinois/terraform-aws-lb-listener-certificate/workflows/terraform/badge.svg)](https://github.com/techservicesillinois/terraform-aws-lb-listener-certificate/actions)
 
 Provides a Load Balancer Listener Certificate resource.
 This resource adds an ACM certificate to the load balancer for the specified
