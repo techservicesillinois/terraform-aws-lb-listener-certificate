@@ -34,4 +34,4 @@ The following arguments are supported:
 Attributes Reference
 --------------------
 
-No attributes are exported.
+* `aws_lb_listener_arn` – ARN of the listener.
